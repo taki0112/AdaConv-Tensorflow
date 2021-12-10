@@ -18,5 +18,8 @@ w_spatial, w_pointwise, bias = kp(style_w)
 x = adac([feats, w_spatial, w_pointwise, bias]) # [5, 64, 64, 1024]
 ```
 
+## Note
+This repository does not implement all codes, but only implements the core modules of the paper.
+
 ## Author
 [Junho Kim](http://bit.ly/jhkim_ai)
