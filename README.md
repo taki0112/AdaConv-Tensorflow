@@ -6,5 +6,17 @@
   <img src="./assets/archi.png">
 </div>
 
+## Usage
+```python
+feats = tf.random.normal(shape=[5, 64, 64, 256])
+style_w = tf.random.normal(shape=[5, 512])
+
+kp = KernelPredict(in_channels=feats.shape[-1], group_div=1)
+adac = AdaConv(channels=1024, group_div=1)
+
+w_spatial, w_pointwise, bias = kp(style_w)
+x = adac([feats, w_spatial, w_pointwise, bias]) # [5, 64, 64, 1024]
+```
+
 ## Author
 [Junho Kim](http://bit.ly/jhkim_ai)
