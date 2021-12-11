@@ -9,6 +9,9 @@ This repository does not implement all codes, but only implements the core modul
   <img src="./assets/archi.png">
 </div>
 
+## Requirements
+ * Tensorflow == 2.5.0
+
 ## Usage
 ```python
 feats = tf.random.normal(shape=[5, 64, 64, 256])
