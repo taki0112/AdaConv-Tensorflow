@@ -10,7 +10,7 @@ This repository does not implement all codes, but only implements the core modul
 </div>
 
 ## Requirements
- * Tensorflow == 2.5.0
+ * `Tensorflow == 2.5.0`
 
 ## Usage
 ```python
