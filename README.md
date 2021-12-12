@@ -24,5 +24,8 @@ w_spatial, w_pointwise, bias = kp(style_w)
 x = adac([feats, w_spatial, w_pointwise, bias]) # [5, 64, 64, 1024]
 ```
 
+## Reference
+* https://github.com/RElbers/ada-conv-pytorch
+
 ## Author
 [Junho Kim](http://bit.ly/jhkim_ai)
