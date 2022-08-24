@@ -2,7 +2,7 @@
 ### : Adaptive Convolutions for Structure-Aware Style Transfer (CVPR 2021)
 
 ## Note
-This repository does not implement all codes, but only implements the core modules of the paper.
+This repository does not implement all codes, but only implements the core modules of the paper that may help you.
 
 <div align="center">
   <img src="./assets/teaser.png">
